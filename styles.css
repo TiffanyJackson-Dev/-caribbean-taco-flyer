@@ -36,3 +36,18 @@ h1 {
     border-radius: 8px;
     display: inline-block;
 }
+
+/* Image Section */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.image-container img {
+    width: 45%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
