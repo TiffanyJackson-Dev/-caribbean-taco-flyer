@@ -101,3 +101,28 @@ h1 {
 .cta:hover {
     background: #028090; /* Deeper Caribbean blue */
 }
+
+/* Mobile Optimizations */
+@media screen and (max-width: 768px) {
+    .flyer {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .event-details {
+        font-size: 16px;
+    }
+
+    .menu li {
+        font-size: 16px;
+    }
+
+    .cta {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+}
