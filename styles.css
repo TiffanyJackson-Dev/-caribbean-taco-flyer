@@ -51,3 +51,28 @@ h1 {
     object-fit: cover;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* Menu */
+.menu {
+    background: #fff3cd; /* Soft yellow for a warm, beachy feel */
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.menu h2 {
+    color: #ff6b6b;
+    font-size: 22px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 500;
+}
